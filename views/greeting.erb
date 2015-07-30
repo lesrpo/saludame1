@@ -1,4 +1,4 @@
-<% if @name == nil %>
+<% if @name == nil || @name == "" %>
 	<h1> Hola desconocido!</h1>
 <% else %>
 	<h1> Hola <%= @name.capitalize %></h1>
